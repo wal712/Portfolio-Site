@@ -1,9 +1,5 @@
-/* Minor Breakpoint */
+/* Minor Breakpoints */
 @media screen and (max-width: 399px) {
-    .image-main {
-        width: 100%;
-    }
-
     .header-name {
         font-size: 3.5rem;
     }
@@ -19,18 +15,23 @@
     }
 }
 
-/* Major Breakpoint */
+@media screen and (min-width: 1050px) {
+    body {
+        width: 1050px;
+        margin: auto;
+    }
+}
+
+/* Major Breakpoints */
 @media screen and (min-width: 660px) {
     .footer-article {
-        width: 40%;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        width: 49%;
     }
 
-    .featured-header {
+    /* .featured-header {
         padding-left: 0;
         margin-left: 1rem;
-    }
+    } */
 
     .footer-grid {
         align-items: center;
@@ -38,11 +39,24 @@
     }
 
     .footer-title {
-        margin-top: 0px;
-        font-size: 2.3.0rem;
+        font-size: 2.3rem;
     }
 
     .footer-sub {
         font-size: 1.0rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .footer-article {
+        width: 33%;
+    }
+
+    .footer-title {
+        font-size: 2.0rem;
+    }
+
+    .footer-sub {
+        font-size: 0.8rem;
     }
 }
