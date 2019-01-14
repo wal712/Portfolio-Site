@@ -2,7 +2,7 @@ body {
     font-family: Roboto;
     font-size: 16px;
     color: #424242;
-    background: #fdfdfd;
+    background-color: #fdfdfd;
 }
 
 /* Header */
@@ -14,7 +14,8 @@ body {
     border-width: thick;
     border-color: #7d97ad;
     padding-bottom: 1rem;
-    font-family: 'Thasadith', sans-serif;
+    padding-top: 0.5rem;
+    background: #fdfdfd;
 }
 
 .header-right, .header-left {
@@ -39,19 +40,24 @@ body {
 }
 
 .header-name {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #2d3c49;
+    /* font-family: 'Thasadith', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
 }
 
 .header-sub {
     font-size: 2rem;
     color: #2d3c49;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: 600;
 }
 
 /* Content */
 
 .content {
-    background-color: #F0F0F0;
+    background-color: #fdfdfd;
 }
 
     /* Primary image */
@@ -95,7 +101,7 @@ body {
 }
 
 .footer-image {
-    width: 100%;
+    width: 98%;
     height: 200px;
     object-fit: cover;
 }

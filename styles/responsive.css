@@ -1,23 +1,18 @@
 /* Minor Breakpoints */
 
-    /* Small mobile phones */
-@media screen and (max-width: 399px) {
-    .header-name {
-        font-size: 3.5rem;
-    }
-
-    .header-sub {
-        font-size: 1.5rem;
-    }
-
-    .image-main {
-        height: 275px;
-    }
-}
-
 @media screen and (max-width: 450px) {
     .featured-header {
         font-size: 3.0rem;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .header-left {
+        width: 30%;
+    }
+
+    .header-right {
+        width: 70%;
     }
 }
 
@@ -29,18 +24,41 @@
 }
 
 /* Major Breakpoints */
-@media screen and (min-width: 660px) {
-    .footer-image {
-        height: 150px;
-        width: 95%;
+
+    /* Small mobile phones */
+@media screen and (max-width: 399px) {
+    .header-name {
+        font-size: 2.0rem;
     }
 
+    .header-sub {
+        font-size: 1.3rem;
+    }
+
+    .image-main {
+        height: 275px;
+    }
+
+    .logo {
+        height: 75px;
+        width: 85px;
+    }
+
+    .featured-header {
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 660px) {
     .image-main {
         height: 300px;
     }
 
+    .footer-image {
+        height: 150px;
+    }
+
     .footer-article {
-        width: 49%;
+        width: 50%;
     }
 
     .footer-grid {
@@ -59,7 +77,7 @@
 
 @media screen and (min-width: 800px) {
     .footer-article {
-        width: 33%;
+        width: 33.3%;
     }
 
     .footer-title {
