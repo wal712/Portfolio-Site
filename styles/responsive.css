@@ -1,4 +1,6 @@
 /* Minor Breakpoints */
+
+    /* Small mobile phones */
 @media screen and (max-width: 399px) {
     .header-name {
         font-size: 3.5rem;
@@ -6,6 +8,10 @@
 
     .header-sub {
         font-size: 1.5rem;
+    }
+
+    .image-main {
+        height: 275px;
     }
 }
 
@@ -24,14 +30,18 @@
 
 /* Major Breakpoints */
 @media screen and (min-width: 660px) {
+    .footer-image {
+        height: 150px;
+        width: 95%;
+    }
+
+    .image-main {
+        height: 300px;
+    }
+
     .footer-article {
         width: 49%;
     }
-
-    /* .featured-header {
-        padding-left: 0;
-        margin-left: 1rem;
-    } */
 
     .footer-grid {
         align-items: center;
