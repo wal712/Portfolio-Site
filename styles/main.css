@@ -23,8 +23,12 @@ body {
     width: 50%;
 }
 
-.logo {
+.link {
     text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
 
 .header-right {
@@ -82,7 +86,7 @@ body {
     object-fit: cover;
 }
 
-.footer-image-title {
+.footer-title {
     width: 100%;
     text-align: center;
     font-size: 3.5rem;
@@ -91,10 +95,11 @@ body {
     margin-bottom: 0;
 }
 
-.footer-image-sub {
+.footer-sub {
     width: 100%;
     text-align: center;
     color: #7d97ad;
     margin-top: 0;
     font-size: 2rem;
+    text-decoration: none;
 }
